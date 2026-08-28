@@ -1,0 +1,21 @@
+import java.util.HashSet;
+import java.util.Set;
+
+public class DuplicateElements Demo.file2 {
+
+    public static void main(String[] args) {
+
+        int[] numbers = {10, 20, 30, 20, 40, 10, 50};
+
+        Set<Integer> set = new HashSet<>();
+
+        System.out.println("Duplicate elements:");
+
+        for (int num : numbers) {
+
+            if (!set.add(num)) {
+                System.out.println(num);
+            }
+        }
+    }
+}
