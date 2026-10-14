@@ -1,0 +1,327 @@
+# Complete Java Backend Concepts List
+
+## 1. Core Java
+
+1. Java Fundamentals
+2. Variables and Data Types
+3. Operators
+4. Conditional Statements
+5. Loops
+6. Arrays
+7. Strings
+8. Classes and Objects
+9. Constructors
+10. `this` and `super` Keywords
+11. Inheritance
+12. Polymorphism
+13. Encapsulation
+14. Abstraction
+15. Interfaces
+16. Abstract Classes
+17. Method Overloading
+18. Method Overriding
+19. Access Modifiers
+20. Packages
+21. Static Keyword
+22. Final Keyword
+23. Exception Handling
+24. Custom Exceptions
+25. Wrapper Classes
+26. Type Casting
+27. Enums
+28. Nested Classes
+29. Inner Classes
+30. Object Class Methods
+
+## 2. Advanced Java
+
+1. Collections Framework
+2. List, Set, Map and Queue
+3. ArrayList and LinkedList
+4. HashSet and TreeSet
+5. HashMap and TreeMap
+6. Hashing and Hash Collisions
+7. Comparable and Comparator
+8. Iterator and ListIterator
+9. Generics
+10. Lambda Expressions
+11. Functional Interfaces
+12. Stream API
+13. Method References
+14. Constructor References
+15. Optional Class
+16. Date and Time API
+17. File Handling
+18. Serialization and Deserialization
+19. Annotations
+20. Reflection API
+21. Multithreading
+22. Thread Lifecycle
+23. Synchronization
+24. Deadlocks
+25. ExecutorService
+26. Callable and Future
+27. CompletableFuture
+28. Concurrent Collections
+29. JVM Architecture
+30. Garbage Collection
+31. Memory Management
+32. Class Loading
+33. JDBC
+
+## 3. SQL and Database Concepts
+
+1. DBMS and RDBMS
+2. MySQL Fundamentals
+3. DDL, DML, DQL, DCL and TCL
+4. CREATE, ALTER and DROP
+5. INSERT, UPDATE and DELETE
+6. SELECT and WHERE
+7. ORDER BY and GROUP BY
+8. HAVING Clause
+9. Aggregate Functions
+10. Joins
+11. Subqueries
+12. Constraints
+13. Primary Key and Foreign Key
+14. Normalization
+15. Indexes
+16. Views
+17. Stored Procedures
+18. Functions and Triggers
+19. Transactions
+20. ACID Properties
+21. Isolation Levels
+22. Query Optimization
+23. Window Functions
+24. Common Table Expressions (CTEs)
+
+## 4. JDBC, JPA and Hibernate
+
+1. JDBC Architecture
+2. JDBC Drivers
+3. Connection
+4. Statement and PreparedStatement
+5. ResultSet
+6. Connection Pooling
+7. ORM
+8. JPA Fundamentals
+9. Hibernate Architecture
+10. Entity Mapping
+11. Entity Lifecycle
+12. One-to-One Mapping
+13. One-to-Many Mapping
+14. Many-to-One Mapping
+15. Many-to-Many Mapping
+16. Lazy and Eager Loading
+17. JPQL and HQL
+18. Criteria API
+19. First-Level and Second-Level Cache
+20. Cascading
+21. Transactions
+22. Pagination and Sorting
+23. N+1 Query Problem
+24. Optimistic and Pessimistic Locking
+
+## 5. Spring Framework
+
+1. Spring Architecture
+2. Inversion of Control (IoC)
+3. Dependency Injection (DI)
+4. Spring Beans
+5. Bean Lifecycle
+6. Bean Scopes
+7. ApplicationContext
+8. BeanFactory
+9. Component Scanning
+10. Configuration Classes
+11. `@Component`
+12. `@Service`
+13. `@Repository`
+14. `@Autowired`
+15. `@Qualifier`
+16. `@Primary`
+17. Spring AOP
+18. Aspect, Advice and Pointcut
+19. Spring Transactions
+20. Spring Profiles
+
+## 6. Spring Boot
+
+1. Spring Boot Architecture
+2. Auto-Configuration
+3. Starter Dependencies
+4. Spring Initializr
+5. Application Properties and YAML
+6. Embedded Servers
+7. Spring Boot Annotations
+8. REST Controllers
+9. Request Mapping
+10. Dependency Injection
+11. Spring Data JPA
+12. Validation
+13. Global Exception Handling
+14. DTOs
+15. ModelMapper and MapStruct
+16. Logging
+17. Spring Boot Actuator
+18. Profiles and Environments
+19. Configuration Properties
+20. Custom Auto-Configuration
+21. Health Checks
+22. Application Monitoring
+
+## 7. REST API Development
+
+1. Client-Server Architecture
+2. HTTP and HTTPS
+3. REST Principles
+4. HTTP Methods
+5. HTTP Status Codes
+6. GET, POST, PUT, PATCH and DELETE
+7. Path Variables
+8. Request Parameters
+9. Request Body and Response Body
+10. JSON and XML
+11. CRUD Operations
+12. API Validation
+13. Error Handling
+14. Pagination and Sorting
+15. API Versioning
+16. Idempotency
+17. CORS
+18. API Documentation
+19. OpenAPI and Swagger
+20. Postman Testing
+
+## 8. Spring Security
+
+1. Authentication
+2. Authorization
+3. Security Filter Chain
+4. Password Hashing
+5. Roles and Authorities
+6. UserDetailsService
+7. SecurityContext
+8. Basic Authentication
+9. Form-Based Authentication
+10. JWT Authentication
+11. OAuth 2.0
+12. OpenID Connect
+13. CSRF Protection
+14. CORS Configuration
+15. Method-Level Security
+16. Role-Based Access Control
+
+## 9. Microservices
+
+1. Monolithic Architecture
+2. Microservices Architecture
+3. Service Discovery
+4. API Gateway
+5. Centralized Configuration
+6. Inter-Service Communication
+7. REST Communication
+8. OpenFeign
+9. WebClient
+10. Load Balancing
+11. Circuit Breaker
+12. Retry and Timeout
+13. Rate Limiting
+14. Resilience4j
+15. Distributed Tracing
+16. Centralized Logging
+17. Kafka
+18. RabbitMQ
+19. Event-Driven Architecture
+20. Saga Pattern
+21. Distributed Transactions
+22. CQRS
+23. Event Sourcing
+24. Microservices Security
+
+## 10. Testing
+
+1. Unit Testing
+2. JUnit 5
+3. Mockito
+4. Mocking and Stubbing
+5. Integration Testing
+6. `@SpringBootTest`
+7. `@WebMvcTest`
+8. MockMvc
+9. Repository Testing
+10. REST API Testing
+11. Testcontainers
+12. Code Coverage
+13. Regression Testing
+14. Test-Driven Development (TDD)
+
+## 11. Build Tools and DevOps
+
+1. Maven
+2. Maven Lifecycle
+3. Dependency Management
+4. Maven Plugins
+5. Git
+6. GitHub
+7. Branching and Merging
+8. Pull Requests
+9. Merge Conflicts
+10. Linux Commands
+11. Environment Variables
+12. Docker
+13. Docker Images and Containers
+14. Docker Compose
+15. CI/CD
+16. Jenkins
+17. GitHub Actions
+18. Cloud Fundamentals
+19. Application Deployment
+20. Production Configuration
+
+## 12. Backend Design and Performance
+
+1. SOLID Principles
+2. DRY and KISS Principles
+3. Design Patterns
+4. Singleton Pattern
+5. Factory Pattern
+6. Builder Pattern
+7. Strategy Pattern
+8. Observer Pattern
+9. Repository Pattern
+10. Layered Architecture
+11. Clean Architecture
+12. Caching
+13. Redis
+14. Database Connection Pooling
+15. Performance Optimization
+16. Memory and Thread Optimization
+17. Rate Limiting
+18. Load Balancing
+19. Scalability
+20. High Availability
+21. System Design
+22. Monitoring and Alerting
+23. Debugging and Root Cause Analysis
+
+## 13. Essential Interview Topics
+
+1. Core Java Interview Questions
+2. OOP Interview Questions
+3. Collections Interview Questions
+4. Java 8 Coding Questions
+5. Multithreading Questions
+6. JVM and Garbage Collection
+7. SQL Query Questions
+8. Spring Framework Questions
+9. Spring Boot Questions
+10. Hibernate and JPA Questions
+11. REST API Questions
+12. Spring Security Questions
+13. Microservices Questions
+14. Coding Problems
+15. Scenario-Based Questions
+16. Project Explanation
+17. Production Bug Scenarios
